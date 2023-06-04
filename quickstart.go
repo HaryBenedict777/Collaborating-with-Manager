@@ -14,8 +14,8 @@ import (
 
 func sendmail(srv gmail.Service, frommail string) {
     temp := []byte("From: 'me'\r\n" +
-        "reply-to: forctfchallenges@gmail.com\r\n" +
-        "To:  forctfchallenges@gmail.com\r\n" +
+        "reply-to: adityadoe2023@gmail.com\r\n" +
+        "To:  adityadoe2023@gmail.com\r\n" +
         "Subject: I need FLAG!")
 
 	var message gmail.Message
