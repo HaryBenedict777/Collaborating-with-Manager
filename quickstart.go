@@ -13,11 +13,10 @@ import (
 )
 
 func sendmail(srv gmail.Service, frommail string) {
-	temp := []byte("From: 'me'\r\n" +
-		"reply-to: blobcorpciso@gmail.com\r\n" +
-		"To:  blobcorpciso@gmail.com\r\n" +
-		"Subject: Feed Spot \r\n" +
-		"remember to feed spot")
+    temp := []byte("From: 'me'\r\n" +
+        "reply-to: forctfchallenges@gmail.com\r\n" +
+        "To:  forctfchallenges@gmail.com\r\n" +
+        "Subject: I need FLAG!")
 
 	var message gmail.Message
 
